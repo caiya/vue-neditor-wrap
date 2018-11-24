@@ -1,6 +1,6 @@
 {
   "name": "vue-neditor-wrap",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Vue + NEditor + v-model双向绑定",
   "main": "index.js",
   "scripts": {
