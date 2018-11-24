@@ -7,7 +7,7 @@ $ npm i vue-neditor-wrap
 
 ## Quick Start
 
-1. 下载[官方资源文件](https://www.notadd.com/download/neditor/Neditor-next-master.tar.xz)~~
+1. 下载[官方资源文件](https://www.notadd.com/download/neditor/Neditor-next-master.tar.xz)
 
     > 下载完成后放在本地public下，命名为NEditor的文件夹下
 
@@ -47,6 +47,8 @@ $ npm i vue-neditor-wrap
     }
     ```
     > 至此你已经可以在页面中看到一个初始化之后的`NEditor`了，并且它已经成功和数据绑定了！
+
+    ![](https://raw.githubusercontent.com/caiya/imgs/master/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20181124115713.png)
 
     ![](https://raw.githubusercontent.com/caiya/imgs/master/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20181124114504.png)
 
