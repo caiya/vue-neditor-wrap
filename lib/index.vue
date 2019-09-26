@@ -239,9 +239,8 @@ export default {
     _setContent(value) {
       if (this.isReady) {
         value === this.editor.getContent() || this.editor.setContent(value);
-      } else {
-        this.readyValue = value;
       }
+      this.readyValue = value;
     }
   },
   beforeDestroy() {
