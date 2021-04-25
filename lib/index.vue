@@ -108,6 +108,7 @@ export default {
         this.init();
         this.editor = window.UE.getEditor(this.id, this.mixedConfig);
         this.readyValue = value == "" ? this.readyValue : value;
+        this.$emit("beforeInit", this.editor);
         this.editor.addListener("ready", () => {
           this.isReady = true;
           this.$emit("ready", this.editor);
